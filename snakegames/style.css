@@ -1,0 +1,42 @@
+body{
+    background: rgb(212, 211, 211);
+}
+ td{
+    width: 100px;
+    height: 100px;
+}
+button{
+    width: 100%;
+    height: 100%;
+}
+#grid{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(4, 0, 255);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid div {
+    width: 20px;
+    height: 20px;
+}
+.snake{
+    background: blue;
+}
+.apple{
+    background: yellow;
+    border-radius: 20px;
+}
+#popup{
+    background: rgb(32,32,32);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
